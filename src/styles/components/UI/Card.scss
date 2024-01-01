@@ -1,0 +1,37 @@
+@use "../../Expressions.scss";
+
+.card {
+    position: relative;
+    width: 30%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    background-color: Expressions.$popoutsColor;
+    border-radius: 20px;
+
+    &:hover .rates {
+        opacity: 1;
+    }
+}
+
+.card-image {
+    width: 100%;
+    height: 50%;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.rates {
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 20px;
+    opacity: 0;
+    background-color: Expressions.$navbarColor;
+    transition: 0.3s;
+}

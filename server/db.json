@@ -1,0 +1,54 @@
+{
+    "macbooks": [
+        {
+            "id": 1,
+            "image": "https://help.apple.com/assets/646BA3F30614495114045148/646BD88BFFC2C729F8334CA6/uk_UA/084d4daddc333de6880b9665097923e8.png",
+            "title": "MacBook Air 2",
+            "price": 49999,
+            "status": "In stock",
+            "rate": 4
+        },
+        {
+            "id": 2,
+            "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP854/mbp14-silver2.png",
+            "title": "MacBook Pro 2021",
+            "price": 23000,
+            "status": "Out of stock",
+            "rate": 2.5
+        },
+        {
+            "id": 3,
+            "image": "https://support.apple.com/library/APPLE/APPLECARE_ALLGEOS/SP854/mbp14-silver2.png",
+            "title": "MacBook Pro 2021",
+            "price": 23000,
+            "status": "Out of stock",
+            "rate": 5
+        }
+    ],
+    "phones": [
+        {
+            "id": 1,
+            "image": "https://www.freeiconspng.com/thumbs/iphone-x-pictures/apple-iphone-x-pictures-5.png",
+            "title": "Iphone X",
+            "price": 49999,
+            "status": "In stock",
+            "rate": 4
+        },
+        {
+            "id": 2,
+            "image": "https://pngimg.com/d/iphone_13_PNG2.png",
+            "title": "Iphone 13",
+            "price": 23000,
+            "status": "Out of stock",
+            "rate": 2.5
+        },
+        {
+            "id": 3,
+            "image": "https://apple-store.ifuture.co.in/wp-content/uploads/2023/01/Latest-Apple-Model-iphone-14-2022.png",
+            "title": "Iphone 14",
+            "price": 23000,
+            "status": "Out of stock",
+            "rate": 5
+        }
+    ]
+}
